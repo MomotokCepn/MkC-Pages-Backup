@@ -1,0 +1,240 @@
+页面名称：mystory
+创建者：Advancer
+标签：小说 精选 转载
+------
+[[module css]]
+/*
+    Powered on 2021/6/01 21:06:01
+    [2021 Wikidot Theme]
+    Created by Vodka Wells
+    CC BY-SA 3.0
+*/
+/*页面*/
+body {
+    background: #DC143C;
+    color: #000;
+    font-family: ‘微软雅黑’;
+}
+a,a:visited {
+    color: yellow;
+}
+h1, #page-title {
+    color: orange;
+    padding: 0 0 0.25em;
+    margin: 0 0 0.6em;
+    font-weight: normal;
+}
+h1 {
+    margin-top: 0.7em;
+    padding: 0;
+    font-weight: bold;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: red;
+    font-family: ‘微软雅黑’;
+}
+/*版头*/
+div#header {
+    background: url(http://lifar.wikidot.com/local--files/blog:_start/gss0.baidu.jpeg) 1px 55px no-repeat;
+    background-size:73px 73px
+}
+div#header h1 a span {
+    font-size: 0px;
+}
+div#header h1 a:before {
+    font-family: 微软雅黑;
+    content: " 新苏联";
+    color: Red;
+    text-shadow: 2px 2px 2px #000;
+}
+div#header h2 span {
+    font-size:0px;
+    padding: 4px;
+}
+div#header h2:after {
+    content: "革命 保卫 共产";
+    font-weight: bold;
+    color: gray;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px black;
+    white-space: pre;
+}
+div#side-bar div.side-block {
+    background: #FFD700;
+    border: 1px solid #DC143C;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+}
+/*搜索栏*/
+#search-top-box-input {
+    border: solid 1px gray;
+    border-radius: 0;
+    color: Gray;
+    background-color: Yellow;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.5);
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    border: solid 2px #DC143C;
+    color: orange;
+    background-color: #DC143C;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.8);
+}
+#search-top-box-form input[type=submit] {
+    border: solid 1px gray;
+    border-radius: 0;
+    padding: 2px 5px;
+    font-size: 100%;
+    font-weight: bold;
+    color: #FFD700;
+    background-color: #FFD700;
+    background: linear-gradient(to red, yellow,red,yellow);
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    border: solid 1px #DC143C;
+    color: #DC143C;
+    text-shadow: 0 0 1px rgba(255,255,255,.25);
+    background-color: #FFD700;
+    background: linear-gradient(to yellow, red,yellow,red);
+    box-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+/*侧栏*/
+div#side-bar div.side-block div.heading,
+div#side-bar div.collapsible-block-unfolded-link,
+div#side-bar div.collapsible-block-unfolded-link div.collapsible-block-link {
+    color: #FFD700;
+    border-color: #FFD700;
+}
+/*顶栏*/
+#top-bar a {
+    color: yellow;
+    background: transparent;
+}
+#top-bar ul li {
+    border: 0;
+    position: relative;
+}
+#top-bar ul li ul {
+    border: solid 1px blue;
+    box-shadow: 0 0px 0px;
+    border-width: 0 1px 1px 1px;
+    width: auto;
+}
+#top-bar ul li a {
+    border-left: solid 1px rgba(64,64,64,.1);
+    border-right: solid 1px rgba(64,64,64,.1);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1px;
+    max-height: 1px;
+    overflow: hidden;
+}
+#top-bar ul li.sfhover a,
+#top-bar ul li:hover a {
+    background: red;
+    color: #FFD700;
+    border-left: solid 1px rgba(64,64,64,1);
+    border-right: solid 1px rgba(64,64,64,1);
+}
+/*tab*/
+div.yui-navset div.yui-content {
+    background: #DC143C;
+}
+div.yui-navset ul.yui-nav a,
+div.yui-navset div.yui-navset-top ul.yui-nav a {
+    background: orange;
+    color: #DC143C;
+}
+div.yui-navset ul.yui-nav a:hover,
+div.yui-navset ul.yui-nav a:focus {
+    background: red;
+    color: #FFD700;
+}
+div.yui-navset ul.yui-nav .selected a,
+div.yui-navset ul.yui-nav .selected a:focus,
+div.yui-navset ul.yui-nav .selected a:hover {
+    background: red;
+    color: #FFD700;
+}
+.yui-navset .yui-nav,
+.yui-navset .yui-navset-top .yui-nav {
+    border-color: yellow;
+}
+/*评分*/
+div.page-rate-widget-box,
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.cancel {
+    background-color: yellow!important;
+    border: solid #DC143C 1px!important;
+}
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown {
+    border: solid red!important;
+    border-width: 1px 0!important;
+}
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.cancel a,
+div.page-rate-widget-box span.cancel a:hover {
+    color: #FFD700;
+}
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown {
+    background-color: red!important;
+}
+div.page-rate-widget-box span.rateup a,
+div.page-rate-widget-box span.ratedown a {
+    color: #FFD700!important;
+}
+div.page-rate-widget-box span.cancel a:hover,
+div.page-rate-widget-box span.rateup a:hover,
+div.page-rate-widget-box span.ratedown a:hover {
+    background: transparent!important;
+    color: transparent!important;
+}
+/*折叠侧栏*/
+div.open-menu a {
+    color: yellow!important;
+    border-color: red!important;
+}
+/*页脚*/
+#footer {
+    clear: both;
+    font-size: 77%;
+    background: purple;
+    color: #000;
+    margin-top: 15px;
+    padding: 3px 10px;
+}
+[[/module]]
+[[module Rate]]
+作者：[[*user Advancer]]
+我本是土生土长并且居住在此的合法公民，长大后因战争原因做了医生，战争结束了，帝国战败了。帝国没有了国王，变成了共和国。因此丢了工作，现在在家乡打工。
+直到那个人上台，我们这个民族就一直被挤对，后又把战败归罪于我们，甚至开始压迫剥削我们，又复辟帝国！那一天几个同胞跑到我家来找我，跟我说：
+“邻居先生！您快跟我们跑吧！这里已经不适合我们居住了。”
+我笑了笑说：
+“这里本就是我土生土长的家乡，哪有什么不适合。”
+随后我打发跑了他们。那一天晚上街上无人，来了几辆人民冲锋队的车，士兵给我和我的邻居用标尺量五官，他摇了摇头，给我们发了黄色六芒星，并让我们必须别在衣服上，有折叠和扔掉甚至是差一厘米都有受到严厉的惩罚。
+这几天街上的族人越来越少了，直到三天后来了一辆人民冲锋队的卡车，将这个街区的族人运往火车站。我被迫上了车，车上有男有女，有老有小。后又上了火车，火车车厢里有一个士兵拿冲锋枪站在门口，车厢里没有座椅，没有床，我们站在里面被运送了三天两夜，这几天没有人给我们吃的，只有干站在，腿站麻了也动不了，因为人太多了。
+第四天夜晚，我们到站了，我望了望，这里四周边上有很多大房子，双层电网和狙击塔还有探照灯，更像是个监狱，而告示牌却写着“为无业游民找到新工作。“听着到像是工厂，可我看见车厢里有几个死了的人的遗体被士兵抬了出来，又感到渗人。我们来到了登记处，里面的工作人员说了一句“你的编号是B100236号，以后这就是你的姓名！“。于是旁边的士兵在我的手臂上纹上了这个编号。我知道，刺青是极不好褪去的。
+后来又有军官给我们分配工作，一半人去子弹生产车间去生产子弹，一半人去铁路旁把巨大的石头砸成小石块。我很不幸运，被分配到了铁路旁。
+到了铁路那里，士兵给我和别人一人发了一个铁镐头，而女子都给的框子是用来运送石块的。一个老太太吃力的搬运着一大框石块，后有士兵拿鞭子逼着她快点往前走，并抽打她。有人看不下去想去制止，但看自己后面有持冲锋枪的监工士兵，又放弃了这个想法。
+到了晚上，午饭只有一碗”汤“是用两根胡萝卜，两个土豆兑水熬成的，给我们3000多人喝。喝完后我躺在狭窄的床上，一共有三层上下铺，每一层才不到1米高，床上没有被子，只有茅草，我和旁边的同胞抱在一起，虽然我们互不认识，但是为了活命只能这样做。
+第二天清晨，我旁边睡的人已经身体僵硬，大概是昨晚冻死了，几个人把这几个遗体抬了出去。
+我准备继续干活时我们被叫到医务处，一个个检查我们有没有生病，我只是轻微感冒，就被说成是重病，被士兵带走了。
+在路上我问士兵：“您好，我是要去哪里？”
+士兵看了看我用讥讽的语气回答：“放你出去。”
+我想了想，可能是这里每天来的人太多，必须要释放一些人。他们把我带到了淋浴房，外面有50多人和我一起进去，我看了看里面墙上的抓痕和地上的粉尘，还有干燥的淋浴喷头。我知道这里应该不是什么淋浴间。看了看一个戴防毒面具的士兵把门关上，我心里有些不安，两分钟后天花板上的通风口突然散发出大量有毒气体，其他人用力抓挠着墙壁，试图爬墙倒窗户逃出去，而我已经身不由己的倒在了地上，我没有挣扎，而是在人事不省的前一刻冷笑了一声，随后闭上了眼，永远也不会睁开。
+十分钟后，门开了，苦力将我和其他同胞的遗体搬运倒推车上，盖上了一个防雨布，推到了火化间。他们把我放到解剖台上，扒开我的嘴看看有没有金牙，可惜了没有如他所愿，我来到这里携带的“财产“只有一身都是补丁的西服和200马克，都被剥夺后，就没有其他东西了。我毕竟不是企业家。
+他报着失望和嫌弃的心情，冷漠的把我放到焚尸炉的台子上，并推了进去，他们又怕后人发现我的存在，为了掩盖自己无法掩盖的罪行，于是我的骨灰被他们撒到了池塘里和草坪里。
+有人会记得我吗？
+我早已尸骨无存！那我到底是谁呢？我是被法西斯分子屠杀的600万犹太人死难者之一，还有人记得我实际的姓名吗？还是那串压抑的编号B100236?
+在此对所有被法西斯分子屠杀残害的人民哀悼。
+对所有反法西斯力量和民众表示致敬。
+@@ @@
+@@ @@
+------
++ 讨论区
+[[module Comments]]
