@@ -1,0 +1,55 @@
+页面名称：the-gtryobe
+创建者：GTryobe
+标签：作者页
+------
+[[=]]
++ 欢迎来到GT的小超市
+[[/=]]
+
+这是GT的小超市，你可以在Site-02站点的办公区找到这个小超市
+
+
+
+[[tabview]]
+
+[[tab GT的文章]]
+[!--[[include :scp-wiki-cn:component:author-page
+order=random |
+translation=no |
+background=yes |
+image=yes |
+sortbar=yes |
+]]--]
+[[module ListPages order="updated_at" created_by="GTryobe" order="title"]]
+[[size 110%]]**%%title_linked%%**[[/size]]
+//创建时间:// {{%%date|%Y %B %e , %H:%M%%}}  ， //分数:// {{[%%rating%%](+[[#expr (%%rating_votes%%+%%rating%%)/2]]/-[[#expr (%%rating_votes%%-%%rating%%)/2]])}}
+//最后编辑于:// {{%%updated_at%% ，//由// [[*user %%updated_by%%]] //编辑//}}
+//标签:// %%tags%%
+[[/module]]
+[[/tab]]
+
+[[tab 小零食]]
+你在期待什么？
+[[/tab]]
+
+[[tab 显卡]]
+你在期待什么？
+[[/tab]]
+
+[[tab 电子设备]]
+你在期待什么？
+[[/tab]]
+
+[[tab 非实物商品]]
+你在期待什么？
+[[/tab]]
+
+[[tab 食堂大妈专用]]
+你在期待什么？
+[[/tab]]
+
+[[tab 杂项]]
+你在期待什么？
+[[/tab]]
+
+[[/tabview]]
