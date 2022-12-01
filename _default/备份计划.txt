@@ -1,0 +1,63 @@
+页面名称：github
+创建者：GTryobe
+标签：新闻
+------
++ 本计划的目的
+
+近期wikidot许多站点的站长纷纷发帖说明wikidot很有可能跑路，或者说会被墙掉，这不免使wd的中国用户担忧起来，因此，开启””备份计划**，保全本站页面基本内容，以应对未来可能到来的**“浩劫”**，并且便于在其他地方恢复站点
+
++ 基本流程
+
+因为[[*user GTryobe]]的编程技术如一滩烂泥，所以自动备份是无望了，只能人工手动备份，我们将把本站[[footnote]] 最好尽量把[http://newsoviet.wikidot.com/ 新苏联]和[http://maple-dream.wikidot.com/ 枫之屋]也一起进行备份 [[/footnote]]的[[[system:list-all-categories |所以页面]]]进行备份。
+
++ 如何备份
+
+++ 首先
+
+你应该要有一个github账号，并将你的账号ID发给[[*user GTryobe]]或者在本页的讨论区提交，以便于将您添加至备份储存库的名单中
+
+++ 开始备份
+
+进入储存库，点击[[span class="keycap"]]Add file[[/span]]，并点击[[span class="keycap"]]Create new file[[/span]]
+
+[[div class="scp-image-block block-center" style="width:100%;"]]
+
+[[image 1 style="width:100%;" link=#]]
+
+[[div class="scp-image-caption" style="width:100%;"]]
+
+建立新文件
+
+[[/div]]
+
+[[/div]]
+
+然后在出来的页面中填入要备份页面的分类以及标题注意后缀名为txt，，比如要备份本页面，则输入“_default/备份计划”，并按照以下模板进行备份：
+
+> 页面名称：xxx
+
+> 创建者：xxx
+
+> 标签：xx xx
+
+> @@------@@
+
+> 页面内容
+
+这里给出图片示例：
+
+[[div class="scp-image-block block-center" style="width:100%;"]]
+
+[[image 2 style="width:100%;" link=#]]
+
+[[div class="scp-image-caption" style="width:100%;"]]
+
+示例
+
+[[/div]]
+
+[[/div]]
+
+直接将源代码复制进去就可以，备份仅仅只备份页面内容，讨论区、附件等并不会备份，而且某个页面一旦变更，则需要立马更新。
+
+欢迎所有网站成员参与备份！
