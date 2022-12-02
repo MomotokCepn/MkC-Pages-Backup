@@ -1,0 +1,9 @@
+页面名称：template
+创建者：GTryobe
+标签：管理
+------
+* [[[_template |所有页面模板]]]
+* [[[theme:_template |版式页面模板]]]
+* [[[component:_template |组件模板]]]
+* [[[forum:_template |讨论区模板]]]
+* [[[template:rated |靠右评分模块]]]

@@ -1,0 +1,48 @@
+页面名称：tag-search
+创建者：GTryobe
+标签：管理
+------
++++ 按标签搜索
+[[note]]
+[[html]]
+
+<body>
+    <div style="text-align:center">
+        <div id="url-type">
+            <input type="radio" name="url-sel" value="author" onclick="document.getElementById('url-pre').innerHTML = ''; document.getElementById('url').size ='25';" checked>标签搜索
+        </div>
+        <p><span id="url-pre" style="font-family:Consolas;font-size: 12.8px;color: #333;"> </span>
+        <input type="text" id="url" name="url" placeholder="请输入…" size="25" ></p>
+        <p>
+            <button onclick="Go0()">搜索</button>
+        </p>
+    </div>
+</body>
+
+<script language="javascript">
+
+    var keyWord;
+
+function expand() {
+    var urltype = document.getElementsByName('url-sel');
+   if (urltype[0].checked) {
+       keyWord = 'http://momotokcepn.wikidot.com/search:tags/tags/%2b' + keyWord;
+   }
+
+}
+
+function Go0(){
+keyWord=document.getElementById("url").value;
+if (keyWord != "") {
+    expand();
+  var result=keyWord;
+  window.open(result);
+}
+}
+
+</script>
+
+[[/html]]
+[[/note]]
+++++ 注意
+标签与标签之间要隔一个空格，不要用“+”，不想要那个标签就用“-”
