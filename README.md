@@ -1,7 +1,7 @@
 # Pages-Backup
 手动页面备份
 
-此处用于以下的页面备份，在我搞出自动备份之前，先手动将就着用一下吧
+此处用于以下网站的页面备份，在我搞出自动备份之前，先手动将就着用一下吧
 
 * http://momotokcepn.wikidot.com
 * http://newsoviet.wikidot.com
