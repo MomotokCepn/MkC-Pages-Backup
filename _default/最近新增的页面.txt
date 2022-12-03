@@ -134,7 +134,7 @@ text-align: justify;
 
 [[div class="content-type-description"]]
 
-[[module ListPages category="-fragment -deleted" tags="原创 搬运 故事 设定 艺术作品 中心 指导 文章 组件 版式 作者 艺术家 竞赛 待删除 待刪除 重写中 -掩藏页" order="created_at desc" prependLine="[[include component:listpages-table]]" perPage="30" appendLine="[[/table]]" separate="false" rss="Most Recently Created"]]
+[[module ListPages prependLine="[[include component:listpages-table]]" perPage="30" appendLine="[[/table]]" separate="false" rss="Most Recently Created"]]
 
 [[row]]
 
