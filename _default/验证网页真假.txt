@@ -1,0 +1,98 @@
+页面名称：verify
+创建者：GTryobe
+标签：其他 原创
+------
+[[module CSS]]
+@import url(http://dream-wiki.wdfiles.com/local--code/div-plug-in-library/1);/*调用http://dream-wiki.wikidot.com/div-plug-in-library的源代码*/
+
+#view-source-button::before {
+  content: '坚决抵制侵犯';
+}
+#view-source-button::after {
+  content: '的盗版行为！';
+}
+.page-source::before {
+  content: '律 师 函 警 告';
+   color: red;
+   font-size:500%;
+background: black;
+   border: double 5px #BCB7B6;
+}
+
+@keyframes turn
+{
+0%   {background: repeating-linear-gradient(red ,yellow 1px, green,purple 2px);border:8px solid blue;}
+25%  {background: repeating-linear-gradient(orange,blue 1px, white,grey 2px);border:8px solid red;}
+75%  { background: repeating-linear-gradient(black,darkred 3px, lightgreen,lightblue 1px);border:8px solid grey;}
+100% { background: repeating-linear-gradient( yellow 1px, red 2px);border:8px solid blue;}
+}
+.page-source {
+animation:turn 8s infinite;
+}
+[[/module]]
+
+++ **如果你正在访问盗版爬虫，请访问[http://momotokcepn.wikidot.com/local--files/verify/redir.html 这里]等待跳转到源网页！！！**
+
++++ 最近发现了盗版的爬虫网站，这里有八种进行验证的方法
+
++ 方法1 对比网址
+官方网址为『[[[http://momotokcepn.wikidot.com]]]』和『[[[https://momotokcepn.mysxl.cn]]]』，其他网址均为盗版爬虫（比如[[[http://acioglu.kennesawglass.com/charm-http-momotokcepn.wikidot.com]]]）。
+
+**注意：**有的时候，骗子很狡猾，他们会利用有些编码十分相似从而伪造网站网址。如：[[[https://www.apple.com.cn]]]是苹果官方网站，这个很好辨认，对吧？因为你可以识别出apple。但是这个呢：[[[https://www.аpple.com.cn]]]，看起来没什么不同是吧？但问题就在这：第二个网址里面apple的a实际上是希腊字符а（阿尔法）！这就是一个钓鱼网站[[footnote]] 大部分浏览器其实已经有了防护措施，在地址栏中，除了英语、阿拉伯数字、和符号-之外都会强制显示为punycode，比如谷歌.ml会变成xn--flw351e.ml[[/footnote]]。
+
+关于更多的编码问题，可以参考这个视频：[*//b23.tv/ycSfPsD 锟斤拷⊠是怎样炼成的——中文显示“⼊”门指南]。
+
++ 方法2 检查JavaScript和HTML是否运行
+一般情况下，盗版爬虫无法运行JavaScript和HTML
+你会在下面看到一个框框和按钮，按下按钮，如果框框内出现文字，则为官方网页，反之则为盗版爬虫
+
+[[div class="type-wrap-wrapper"]]
+[[div class="type-wrapper"]]
+[[div id="u-start"]]
+[[/div]]
+[[div class="typearea"]]
+[[div class="textchange"]]
+[[module ListUsers users="."]]
+[[div class="sitemember"]]
+%%name%%，你好！[[span class="blink"]]|[[/span]]
+[[/div]]
+[[/module]]
+[[div class="sitemember"]]
+游客您好！[[span class="blink"]]|[[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[/div]]
+[[div class="buttonwrapper"]]
+[[a class="likebutton" href="#u-start"]]检测账号[[/a]]
+[[/div]]
+[[/div]]
+
++ 方法3 登录状态
+盗版爬虫网站是无法登陆的，点右上角的『登入』没有反应
+官方网站点击『登入』则会跳转网页
+已经登录账户的一定是官方网页
+
++ 方法4 加载速度
+官方网站的加载速度一般比盗版爬虫快
+
++ 方法5 弹窗
+盗版爬虫不一定都会有弹窗，但是官方是不会有弹窗的，wikidot仅提供谷歌广告，而我们肯定不会有广告的
+
++ 方法6 单页迭代
+如果访问有单页迭代[[footnote]] 大部分网站的移动端折叠侧栏都是使用这个方法实现的 [[/footnote]]的页面，点击后内容会有变化[[footnote]] 比如侧栏展开 [[/footnote]]，如果没有就是盗版爬虫。
+
++ 方法7 使用站长工具
+利用[*//mip.chinaz.com/Ip/IpWhois Whois][[footnote]] 域名查询服务 [[/footnote]]来进行查询，如果是官方的，那它的IP地址会显示是在美国且主机是亚马逊云，比如lnara.alfa145.com使用的是Lincode主机，则该网站为盗版爬虫。如果没有显示在美国且使用的不是亚马逊主机，那么网站就不是官方网站。
+
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image http://momotokcepn.wikidot.com/local--files/verify/gfip style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+网站IP地址
+[[/div]]
+[[/div]]
+
+除了使用[*//mtool.chinaz.com 站长工具]外，您还可以使用[*//tools.aizhan.com 爱站网]的工具进行更多的查询。
+
++ 方法8 确定域名来源
+大部分盗版爬虫使用的是FreeDNS的免费域名，可以使用[http://z.zcjun.com/ 二级域名爆破工具]看看是不是出现一堆与主站无关的二级域名跳转到其他网站，如果是，则为盗版爬虫。

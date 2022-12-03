@@ -1,0 +1,13 @@
+页面名称：chat
+创建者：GTryobe
+标签：社交
+------
+[[=]]
+
++ **感谢cbox**
+**使用方法**
+在"使用者名称"中填入ID就可以了，还可以点人像的图标上传头像哦
+没有出现可以刷新页面，并等一下，实在不行点[https://my.cbox.ws/MomotokCepnchat 这里]
+[[/=]]
+
+[[iframe https://my.cbox.ws/MomotokCepnchat width="90%" height="1000px"]]
