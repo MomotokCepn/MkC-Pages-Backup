@@ -4,8 +4,6 @@
 此处用于以下网站的页面备份，在我搞出自动备份之前，先手动将就着用一下吧
 
 * http://momotokcepn.wikidot.com
-* http://newsoviet.wikidot.com
-* http://newsoviet.wikidot.com
 
 编辑名为README.md的文件可以编辑此款，使用markdown语法
 
