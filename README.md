@@ -7,7 +7,7 @@
 * http://newsoviet.wikidot.com
 * http://newsoviet.wikidot.com
 
-看那个绿色的按钮，那一排按钮最左边的那个，点它可以切换到**新苏联**和**枫之屋**，而且编辑名为README.md的文件可以编辑此款，使用markdown语法
+编辑名为README.md的文件可以编辑此款，使用markdown语法
 
 点击[这里](https://github.com/MomotokCepn/MkC-Backup/archive/refs/heads/main.zip)下载当前MkC的备份文件版本
 
