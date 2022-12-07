@@ -1,7 +1,0 @@
-页面名称：delete-0
-创建者：GTryobe
-标签：管理
-------
-[[module listpages category="deleted" ]]
-* %%title_linked%%
-[[/module]]

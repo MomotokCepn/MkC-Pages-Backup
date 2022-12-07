@@ -1,8 +1,0 @@
-页面名称：answer
-创建者：Advancer
-标签：新闻
-------
-以前无法答复回复某个帖子，但是现在可以了。
-只需要将嵌套层数设置为10就可以了（以前是0）。
-如图：
-[[image http://ubmh.wikidot.com/local--files/af/%E6%88%AA%E5%9B%BE3 width="300px"]]
